@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+        <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Gwendal Berriot" content="Contact" />
+        <link rel="stylesheet" href="Contact.css">
+	
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        
+        <title>
+        Contact de Gwendal Berriot
+        </title>
+        </head>
+
+<body>
+    <div class="navbar">
+        
+        <div class="logo">
+                <p id="logo">GB</p>
+        </div>
+
+        <div class="allbutton">
+                
+                <a href="index.html" class="button" id="cv">
+                 CV 
+                </a>
+        
+                <a href="Hobby.html" class="button" id="hobby">
+                 Hobby 
+                </a> 
+    
+                <a href="Contact.html" class="button" id="contact"> 
+                Contact 
+                </a>
+                
+        </div>
+        
+
+</div>
+
+<div class="header">
+
+    <div class="titre"><H1>Contactez moi</H1></div>
+    <div class="texte"><p>Vous êtes interessé par mon CV et souhaitez me contacter ? <br>
+        Rien de plus simple remplissez ce formulaire et je répondrais dans les plus brefs délais !
+
+    </p></div>
+
+</div>
+
+<form action="https://httpbin.org/post" method="post" class="form-example">
+<div class="formulaire">
+   
+    <div class="nom">
+        <label for="name">Nom</label> <br>
+<input type="text" id="name" name="name" required
+       minlength="1" size="20">
+    </div>
+
+    <div class="prenom">
+        <label for="surname">Prénom</label> <br>
+<input type="text" id="surname" name="surname" required
+       minlength="1" size="20">
+    </div>
+
+    <div class="tel">
+        <label for="phonenumber">Numéro de téléphone</label> <br>
+<input type="text" id="phonenumber" name="phonenumber" 
+       minlength="10" maxlength="14">
+    </div>
+
+    <div class="email">
+        <label for="email">Adresse Mail</label> <br>
+<input type="text" id="email" name="eamil" required
+       minlength="6" size="25">
+    </div>
+
+                    <div class="radio">
+
+                        <p>Vous êtes :</p>
+
+                <div>
+                <input type="radio" id="recruteur" name="who" value="recruteur"
+                        checked>
+                <label for="recruteur">Un recruteur</label>
+                </div>
+
+                <div>
+                <input type="radio" id="Autre" name="who" value="Autre">
+                <label for="Autre">Autre</label>
+                </div>
+
+                    </div>
+
+    <div class="selec">
+
+            <label for="how">Comment m'avez vous connu ?</label>
+
+    <select name="how" id="how" class="deroul">
+        <option value="">--Choisissez--</option>
+        <option value="meet">Nous nous sommes rencontrés</option>
+        <option value="internet">Moteur de recherche</option>
+        <option value="acquaintance">Par le biais d'une connaissance</option>
+    </select>
+
+    </div>
+    
+    <div class="msg">
+        <label for="msg">Votre message</label> <br>
+        <textarea name="msg" id="msg" cols="100" rows="10" required></textarea>
+    </div>
+
+    <div class="valider"><input type="submit" value="Valider" class="v">
+    
+    </div>
+    
+    </div>
+</form>
+
+<div class="footer">
+    <a href="test.html">Lien vers ma page Test</a> <br>
+    <a href="Flextest.html">Lien pour mes tests FlexBox</a>
+</div>
+
+</body>
+</html>

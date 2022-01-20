@@ -1,0 +1,25 @@
+.A {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+}
+
+.AA {
+    background-color: coral;
+
+}
+
+.AB {
+    background-color: crimson;
+}
+
+.AC {
+    background-color: darkcyan;
+
+}
+
+
+.ABAC {
+    display: flex;
+    flex-direction: column;
+}

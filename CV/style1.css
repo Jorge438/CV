@@ -171,12 +171,11 @@ table {
     justify-content: center;
     align-items: center;
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: grey;
 }
 
 .footer a {
     font-family: 'Oswald', sans-serif;
-    color: white;
 }
 
 .SIDE h2 {
